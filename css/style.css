@@ -1,0 +1,137 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.food{
+	background-image:url(rabiul.jpg);
+	overflow: hidden;
+	font-family: Open Sans,Arial,sans-serif;
+	text-align: center;
+	background-position: cover;
+	background-repeat: no-repeat;
+}
+.overly{
+	overflow: hidden;
+	background: linear-gradient(#1b1a1db3 0%,#100f10c9 100%);
+	padding-bottom:40px;
+}
+.container{
+	width: 80%;
+	margin: auto;
+	
+}
+.col-1{
+	margin: 80px auto;
+	padding: 10px;
+}
+.col-1 h1{
+	font-size: 72px;
+    color: #ffffff;
+	font-weight:700;
+    line-height: 1.3em;
+	margin-bottom: 40px;
+}
+.col-1 p{
+	font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 19px;
+    color: #bfbfbf;
+    line-height: 1.8em;
+}
+.col-1-1{
+	margin-bottom: 50px;
+}
+.btn{
+	text-decoration: none;
+	padding: 10px 20px;
+	color: #fff;
+	border: 2px solid #fff;
+	letter-spacing: 1px;
+	
+}
+.btn:hover{
+	background:#696A6B;
+}
+.bton{
+	text-decoration: none;
+	padding: 10px 20px;
+	color: #fff;
+	background: #C39D63;
+	letter-spacing: 1px;
+	border: 2px solid #C39D63;
+	margin-left: 10px;
+
+}
+a{
+	color: #fff;
+	
+}
+.royal{
+	overflow: hidden;
+	padding: 100px 0px;
+}
+.col-2{
+	width: 50%;
+	float: left;
+}
+.col-2 span{
+	color: #BFBFBF;
+	font-size: 14px;
+	letter-spacing: 2px;
+	font-weight: 700;
+}
+hr{
+	width: 60px;
+	height: 1px;
+	margin-bottom: 30px;
+	margin-top: 15px;
+}
+.col-2 h1{
+	font-family: 'Playfair Display',Georgia,"Times New Roman",serif;
+    font-size: 48px;
+    color: #1f1f1f;
+	font-weight: 500;
+	padding-bottom: 50px;
+}
+.col-2 p{
+	font-size: 20px;
+	line-height: 1.5;
+	color: #9393AF;
+	letter-spacing: 1px;
+	font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+	padding-right:52px;
+}
+.col-2 img{
+	width:100%;
+	height:auto;
+}
+
+@media(max-width:980px){
+	.col-2{
+		width: 100%;
+		float: left;
+	}
+	.col-2 img{
+		margin:30px auto;
+	}
+}
+@media(max-width:410px){
+	
+	.btn{
+		width: 40%;
+		margin: auto;
+		float: left;
+		margin-bottom: 40px;
+	
+	}
+	.bton{
+		width: 100%;
+		
+		margin-left:-10px;
+	}
+}
+
+
+
+
+
+
